@@ -1,0 +1,51 @@
+div{
+	padding: 50px 300px 0px;
+}
+h1{
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: bold;
+}
+h2{
+	margin-top:25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+p{
+	margin-top: 25px;
+}
+.header{
+	text-align: center;
+}
+.big_text{
+	font-size: 17px;
+}
+
+.bold{
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.underline{
+	text-decoration: underline;}
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+.im_left{
+	float: left;
+}
+ul{
+	list-style-type:circle;
+}
+ol{
+	list-style: decimal;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.list{
+	padding-left: 350px;
+}
