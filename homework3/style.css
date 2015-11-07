@@ -17,8 +17,17 @@ table {
 	margin: 40px auto 0px;
 	width: 600px;
 }
+.table3 {
+	border: 2px double gray	;
+	border-spacing: 0px;
+}
+td, th{
+	padding:5px;
+}
 
-
+.bold th{
+	text-align:left;
+}
 
 h1{
 	font-size: 30px;
