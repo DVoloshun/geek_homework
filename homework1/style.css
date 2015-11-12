@@ -1,0 +1,13 @@
+div {
+	padding: 25px 200px;
+	font-family: fantasy;
+	}
+h1 {
+	font: bold 20px/50px arial;
+}
+.header {
+	text-align: center
+}
+p {
+	margin: 10px auto
+}

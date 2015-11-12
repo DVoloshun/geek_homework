@@ -1,0 +1,75 @@
+table, td, th {
+	border: 1px double black;
+}
+th{
+	font-size: 16px;
+	font-weight: bold;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+.table1{
+	margin: 40px auto 0px;
+	width: 90%;
+}
+.table2, .table3{
+	margin: 40px auto 0px;
+	width: 600px;
+}
+.table3 {
+	border: 2px double gray	;
+	border-spacing: 0px;
+}
+td, th{
+	padding:5px;
+}
+
+.bold th{
+	text-align:left;
+}
+
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	line-height:2em; 
+}
+h2{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 2em;
+}
+fieldset{
+	border: 1px solid black;
+	padding: 20px;
+}
+li{
+	padding-bottom: 15px;
+}
+.form, .footer{
+	width:700px;
+	margin: 30px;
+}
+fieldset{
+	margin-top:30px;
+}
+legend, h4{
+	font-weight: bold;
+}
+.about li{
+	padding-bottom: 0px;
+}
+.other_li li{
+	padding-bottom: 5px;
+}
+
+.italic {font-style: italic;
+}
+
+
+
+
+
+
+
+
