@@ -1,144 +1,187 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<head>
-	<title>Our first template</title>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<link href="../reset.css" rel="stylesheet" type="text/css">
-	<link href="style/style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-	<div class="wrapper">
-		<div class="header">
-			<div class="logo">	
-				Minimal Personal
-			</div>	
-		</div>
-		<div class="main">
-			<div class="sidebar_left">
-				<div class="short_descrip">
-					<p>A short description or a short information about author goes here.</p>
-					<img src="img/hendrix3.jpg" alt="Hendrix">
-				</div>
-				<div>
-					<ul>
-						<li>
-							<p class="nav_item">Categories</p>
-							<ul class="nav_link">
-								<li class="button"><a href="#">Lifestyle<span class="right">51</span></a></li>
-								<li class="button"><a href="#">Travel<span class="right">19</span></a></li>
-								<li class="button"><a href="#">My Home<span class="right">20</span></a></li>
-								<li class="button"><a href="#">Work<span class="right">23</span></a></li>
-								<li class="button"><a href="#">Family<span class="right">8</span></a></li>
-							</ul>
-						</li>
-						<li>
-							<p class="nav_item">Pages</p>
-								<ul class="nav_link">
-									<li class="button"><a href="#">About</a></li>
-									<li class="button"><a href="#">Get In Touch</a></li>
-								</ul>
-						</li>
-						<li>
-							<p class="nav_item">Search</p>
-								<form action="#" method="GET" class="form">
-									<p><input type="text" name="search"></p>
-								</form>
-						</li>
-					</ul>		
-				</div>
-			</div> 
-			<div class="content">
-				<div class="first">
-					<h4>Lifestyle, Travel</h4>
-					<h1>Mauris eget orci id leo</h1>
-						<div class="first_text">
+	<head>
+		<title>Our first template</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link href="../reset.css" rel="stylesheet" type="text/css">
+		<link href="style/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="header-section">
+			<div class="header">
+				<div class="logo">	
+					<a href="#">Minimal Personal</a>
+				</div>	
+			</div>
+		</div>			<!-- header-section end -->
+		<div class="main-section">
+			<div class="main">
+				<div class="sidebar_left">
+					<div class="short_descrip">
+						<p>A short description or a short information about author goes here.</p>
+						<img src="img/hendrix3.jpg" alt="Hendrix">
+					</div>
+					<div class="catigories">
+						<h3>Categories</h3>
+						<ul>
+							<li><a href="#">Lifestyle<span>51</span></a></li>
+							<li><a href="#">Travel<span>19</span></a></li>
+							<li><a href="#">My Home<span>20</span></a></li>
+							<li><a href="#">Work<span>23</span></a></li>
+							<li><a href="#">Family<span>8</span></a></li>
+						</ul>
+					</div>
+					<div class="pages">
+						<h3>Categories</h3>
+						<ul>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Get In Touch</a></li>
+						</ul>
+					</div>
+					<div class="search">
+						<h3>Search</h3>
+						<form action="#" method="GET" class="form">
+							<p><input type="text" name="search"></p>
+						</form>
+					</div>				
+				</div>			<!-- sidebar_left end --> 			
+				<div class="content">
+					<div class="main-content">
+						<ul class="inline">
+							<li><a href="#">Lifestyle</a>,</li>
+							<li><a href="#">Travel</a></li>
+						</ul>
+						<h1>Mauris eget orci id leo</h1>
+						<div class="main-article">
 							<img src="img/hendrix.jpg" alt="Hendrix">
-							<p class="text">Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet. </p>
-							<p>
-								<span class="social">Share:</span> <span class="social_info">Twitter, Facebook, Digg,  Delicious. </span>
-							</p>
-							<p>
-								<span class="social">Date:</span> June 5th, 2011; <span class="social">Tags:</span><span class="social_info"> tortorm<span class="social">,</span> non<span class="social"><span class="social">,</span> interdum;</span>Comments:</span> 1
-							</p>
+							<p>Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet. </p>
+							<dl>
+								<dt>Share:</dt>
+									<dd><a href="#">Twitter</a>,</dd>
+									<dd><a href="#">Facebook</a>,</dd>
+									<dd><a href="#">Digg</a>,</dd>
+									<dd><a href="#">Delicious</a>.</dd>
+							</dl>
+							<dl>
+								<dt>Date:</dt>
+									<dd>June 5th, 2011;</dd>
+								<dt>Tags:</dt>
+									<dd><a href="#">tortorm</a>,</dd>
+									<dd><a href="#">non</a>,</dd>
+									<dd><a href="#">interdum</a>;</dd>
+								<dt>Comments:</dt>
+									<dd><a href="#">1</a></dd>
+							</dl>
+							 
 						</div>
-				</div>
-				<ul>
-					<li class="second">
-						<div>
-							<img class="right" src="img/hendrix4.jpg" alt="Hendrix">
-							<h4>My Home, Family</h4>
-							<h2>Mauris eget orci id leo</h2>
-							<p class="second_text">
-								Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet. 
-							</p>
-						</div>
-						<div class="second_foot">
-							<span class="social">Date:</span> June 5th, 2011; <span class="social">Tags:</span><span class="social_info"> tortorm<span class="social">,</span> non<span class="social"><span class="social">,</span> interdum;</span>Comments:</span> 1
-						</div>
-					</li>
-					<li class="second">
-						<img class="right" src="img/gitar.jpg" alt="Gitar">
-						<h4>Work</h4>
-						<h2>Mauris eget orci id leo</h2>
-						<p class="second_text">
-							Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet. 
-						</p>
-						<div class="second_foot">
-							<span class="social">Date:</span> June 5th, 2011; <span class="social">Tags:</span><span class="social_info"> tortorm<span class="social">,</span> non<span class="social"><span class="social">,</span> interdum;</span>Comments:</span> 1
-						</div>
-					</li>
-				</ul>
-				<ul class="pages">
-					<li class="page_list">Page 1 of 19</li>
-					<li class="active"><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#">&raquo</a></li>
-					<li class="page_list">...</li>
-					<li><a href="#">Last</a></li>
-				</ul>
-			</div>	
-			<div class="sidebar_right">
-				<div class="social_ikons"> 
-					<ul>
-						<li>
-							<a href="#">
-								<img src="img/twitter.png" alt="twitter">
-							</a>
-							<p>
-								<span class="bold">Twitter</span> 599 followers
-							</p>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/rss.png" alt="rss">
-							</a>	
-							<p>
-								<span class="bold">Twitter</span> 599 followers	
-							</p>
-						</li>
-					</ul>
-				</div>
-				<div class="img">
-					<img src="img/hendrix2.jpg" alt="Hendrix">
-				</div>
-				<div class="left_text"> 
-					<h4>Sidebar 160</h4>
-					Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin. 
-				</div>
-				<div class="right_text"> 
-					<h4>Sidebar 160</h4>
-					Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin. 
+					</div>
+					<div class="second-content">
+						<ul>
+							<li>
+								<div class="second-article">
+									<p>
+										<img class="right" src="img/hendrix4.jpg" alt="Hendrix">
+									</p>
+									<ul class="inline">
+										<li><a href="#">My Home</a>,</li>
+										<li><a href="#">Family</a></li>
+									</ul>
+									<h2>Mauris eget orci id leo</h2>
+									<p>
+										Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet. 
+									</p>
+									
+								</div>
+								<div class="second_foot">
+									<dl>
+										<dt>Date:</dt>
+											<dd>June 5th, 2011;</dd>
+										<dt>Tags:</dt>
+											<dd><a href="#">tortorm</a>,</dd>
+											<dd><a href="#">non</a>,</dd>
+											<dd><a href="#">interdum</a>;</dd>
+										<dt>Comments:</dt>
+											<dd><a href="#">1</a></dd>
+									</dl>
+								</div>
+							</li>
+							<li>
+								<div class="second-article">
+									<p>
+										<img class="right" src="img/gitar.jpg" alt="Gitar">
+									</p>
+									<a href="#">Work</a>
+									<h2>Mauris eget orci id leo</h2>
+									<p>
+										Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet. 
+									</p>
+								</div>
+								<div class="second_foot">
+									<dl>
+										<dt>Date:</dt>
+											<dd>June 5th, 2011;</dd>
+										<dt>Tags:</dt>
+											<dd><a href="#">tortorm</a>,</dd>
+											<dd><a href="#">non</a>,</dd>
+											<dd><a href="#">interdum</a>;</dd>
+										<dt>Comments:</dt>
+											<dd><a href="#">1</a></dd>
+									</dl>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="pagination">
+						<ul class="inline">
+							<li>Page 1 of 19</li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">&raquo</a></li>
+							<li>...</li>
+							<li><a href="#">Last</a></li>
+						</ul>
+					</div>
+				</div>			<!-- content end -->	
+				<div class="sidebar_right">
+					<div class="social"> 
+						<ul>
+							<li>
+								<a href="#">
+									<img src="img/twitter.png" alt="twitter">
+									<span>Twitter</span> 599 followers
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/rss.png" alt="rss">
+									<span>RSS</span> 109 readers	
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="wiget">
+						<img src="img/hendrix2.jpg" alt="Hendrix">
+					</div>
+					<div class="left_news"> 
+						<h4>Sidebar 160</h4>
+						Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin. 
+					</div>
+					<div class="right_news"> 
+						<h4>Sidebar 160</h4>
+						Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin. 
+					</div>
+				</div>			<!-- sidebar_right end -->
+			</div>			<!-- main end -->
+		</div>			<!-- main-section end -->
+		<div class="footer-section">
+			<div class="footer">
+				<div class="copyright">
+					<a href="#">2011 &copy; DuckFiles.com</a>
 				</div>
 			</div>
-		</div>
-		<div class="footer">
-			<div class="copyright">
-				2011 &copy; DuckFiles.com
-			</div>
-		</div>
-	</div>
-</body>
+		</div>			<!-- footer-section end -->
+	</body>
 </html>
