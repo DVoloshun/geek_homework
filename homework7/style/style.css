@@ -1,0 +1,294 @@
+body {
+	background-color: #edeff1;
+	text-align: center;
+}
+.wrapper {
+	width: 1256px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	padding: 29px 0 10px;
+}
+
+/*============================header============================*/
+header.main {
+	height: 147px;
+	
+}
+header.main h1 {
+	color: #31353e;
+	font-family: RobotoSlab;
+	font-size: 36px;
+	font-weight: 700;
+}
+.logo {
+	color: #dd4b2b;
+	font-family: RobotoSlab;
+	font-size: 16px;
+	font-weight: 400;
+	float: left;
+	padding: 49px 381px 0 42px;
+}
+nav {
+	padding-top: 51px;
+}
+nav li{
+	display: inline-block;
+	padding: 18px 22px;
+}
+nav a {
+	color:#43464f;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+}
+nav li:nth-child(3) {
+	background-color: #dd4b2b;
+	background-color: #dd4b2b;
+	border-radius: 25px;
+	padding: 
+}
+nav li:nth-child(3) a {
+	color: #edeff1;
+}
+
+/*============================content============================*/
+
+section.content {
+	height: 1321px;
+	background: url('../img/backsection1.png') center  no-repeat;
+	color: white;
+}
+section.content h1 {
+	font-size: 72px;
+	font-weight: 300;
+	padding-top: 489px;
+}
+center {
+	padding-top: 7px;
+	font-size: 30px;
+	font-weight: 700;
+}
+main {
+	padding-top: 122px;
+	overflow: hidden;
+}
+main article {
+	width: 323px;
+	float: left;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+main article:first-child {
+	padding-left: 76px;
+}
+main article:nth-child(2) {
+	padding-left: 80px;
+	padding-right: 75px;
+}
+main {
+	padding-bottom: 59px;
+}
+.content .button {
+	display: inline-block;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	padding: 19px 60px 21px 63px;
+	color: #612316;
+}
+
+/*============================news============================*/
+
+.news {
+	color: #31353e;
+}
+.news h2 {
+	padding: 82px 0 84px;
+}
+.news article {
+	width: 371px;
+	float: left;
+}
+.news article:nth-child(2) {
+	padding-left: 41px;
+}
+.news article:nth-child(3) {
+	padding-left: 29px;
+	padding-right: 27px;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 39px;
+	line-height: 30px;
+}
+.news p {
+	padding: 0 42px 0 41px;
+	line-height: 30px;
+}
+.news .button {
+	display: inline-block;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	color: #4e5159;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 19px 60px 21px 63px;
+	margin: 60px 0 125px;
+}
+/*============================Newsletter============================*/
+.newsletter {
+	height: 385px;
+	background: url('../img/backnewsletter_cr.png') center  no-repeat;
+	color: white;
+}
+.newsletter h2 {
+	padding: 91px 0 10px;
+}
+.newsletter p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 24px;
+	width: 533px;
+	margin: 0 auto;
+}
+.newsletter form {
+	padding-top: 43px;
+	position: relative;
+	display: inline-block;
+}
+.newsletter form a {
+	background-color: #fff;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	color: #612316;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 19px 73px 17px 78px;
+	position: absolute;
+	right: 0px;
+	bottom: 1px;
+}
+.newsletter input {
+	width: 509px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 26px;
+	padding: 19px 0px 21px 36px;
+}
+/*============================product============================*/
+
+.product {
+	height: 1018px;
+	background-color: white;
+}
+.product article {
+	overflow: hidden;
+	text-align: left;
+	color: #191b29;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.product article p {
+	padding-bottom: 45px;
+}
+.product1 {
+	padding-top: 65px;
+}
+.product2 {
+	padding-top: 55px;
+}
+.product1 img {
+	float: right;
+	border: 1px solid #dbdbdb;
+}
+.product2 img {
+	border: 1px solid #dbdbdb;
+	float: left;
+}
+.text-product {
+	padding: 53px 62px 0 44px;
+	overflow: hidden;
+}
+.product .button {
+	display: inline-block;
+	background-color: #dd4b2b;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 19px 71px 17px 78px;	
+}
+.product2 .button {
+	background-color: #4b4e73;
+}
+/*============================menu============================*/
+.menu {
+	height: 405px;
+	background-color: #d75d0e;
+}
+.menu a {
+	color: white;
+}
+.menu ul {
+	float: left;
+	padding-top: 98px;
+}
+.menu li {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.menu ul:first-child {
+	padding-left: 165px;
+}
+.menu ul:nth-child(2) {
+	padding-left: 246px;
+	padding-right: 281px;
+}
+
+/*============================footer============================*/
+
+footer {
+	height: 375px;
+	background: url('../img/backfooter_cr.png') center  no-repeat;
+	color: white;
+	font-size: 18px;
+	line-height: 24px;
+}
+footer .wrapper {
+	padding-top: 91px;
+	width: 666px;
+}
+footer a {
+	color: white;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
