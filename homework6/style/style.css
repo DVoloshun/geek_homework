@@ -1,15 +1,17 @@
 body{
-	background: transparent -moz-linear-gradient(center top , #CFD8DA 2%, #EFF2F3 14%, #F0F3F3 15%, #FEFEFE 40%) repeat scroll 0% 0%;
+	background: url('../img/back.png') repeat-x;
 	font-family: Myriad Pro;
+}
+.wrapper{
+	width: 780px;
+	margin: auto;
+	font-style: Arial;
+	color: #545454;
 }
 .header,
 .main ,
 .footer	{
-	width: 780px;
-	margin: auto;
 	overflow: hidden;
-	font-style: Arial;
-	color: #545454;
 }
 a {
 	text-decoration: none;
@@ -30,9 +32,6 @@ a {
 	padding: 39px 30px 0px;
 }
 
-.header li {
-	display: inline;
-}
 
 .logo {
 	float: left;
@@ -42,51 +41,55 @@ a {
 	float: right;
 	font-size: 10px;
 }
-
+.registration ul li {
+	float: left;
+	padding: 0 12px;
+}
 .registration ul{
-	padding: 7px 22px;
+	padding: 7px 12px;
 	background-color: #ffffff;
 	border-radius: 0px 0px 40px 40px;
+	overflow: hidden;
 }
 .registration li:nth-child(2){
-	padding: 10px
+	border-left: 1px solid #959595;
 }
-.registration li:nth-child(3) a{
+.registration li:nth-child(2) a{
 	color: #02A4FA;
 }
 .menu li a:hover {
 	color: #02A4FA;
 }
-.pages {
+.main-nav {
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
 	margin-right: 25px;
 }
-.pages li{
+.main-nav li{
 	float: left;
 	padding: 17px 36px 14px 36px; 
 }
-.pages li:nth-child(2){
+.main-nav li:nth-child(2){
 	border-left: 1px solid #939598;
 	border-right: 1px solid #939598;
 	padding: 17px 19px 14px 19px;
 }
-.pages ul {
+.main-nav ul {
     border-width: 1px 1px 0px;
     border-style: solid solid none;
     border-color: #939598 #939598 -moz-use-text-color;
     overflow: hidden;
     border-radius: 30px 30px 0px 0px;
 }
-.pages ul {
+.main-nav ul {
 	background: linear-gradient(to top, #D9D8D5, #E5EAEB);
 }
 
-.pages ul li:first-child {
+.main-nav ul li:first-child {
 	background: linear-gradient(to top, #E9EDED, #FFFFFF);
 }
-.pages ul li:first-child a{
+.main-nav ul li:first-child a{
 	color: #02A4FA;
 }
 
@@ -97,18 +100,35 @@ a {
 	float: left;
 	margin-right: 20px;
 }
-.head-category {
+
+h3{
+	display: inline-block;
 	font-size: 20px;
 	color: #03A7FD;
-	padding: 25px 0px 25px; 
+	padding: 25px 20px 25px 0; 
+	background: url('../img/arrow2.png') right no-repeat;
+	padding-right: 20	px;
+}
+ ul.category {
+	list-style-image: url('../img/arrow.png');
+	list-style-position: inside;
 }
 
 .category li{
     border-bottom: 1px solid rgb(195, 196, 195);
     padding: 10px 0px;
 }
+.category li:last-child {
+	border-bottom: none;
+	padding-bottom: 40px;
+}
 .category img {
 	padding-right: 10px;
+}
+.rss {
+    border-bottom: 1px solid #E5E4E4;
+    border-top: 1px solid #E5E4E4;
+    padding: 15px 63px;
 }
 .company li{
 	padding: 35px 0 0 65px;
@@ -126,8 +146,8 @@ dd.info:nth-child(odd){
 }
 
 
-/*---------------article---------------*/
-.article{
+/*---------------content---------------*/
+.content{
 	overflow: hidden;
 }
 h1 {
@@ -141,14 +161,14 @@ h2{
 	padding-top: 15px;
 }
 
-.article ul {
+.content ul {
 	border-top: 1px solid #00A7FB;
 }
-.article img{
+.content img{
 	float: left;
 	margin: 15px 21px 0px 11px;
 }
-.article li {
+.content li {
 	border-bottom: 1px solid rgb(0, 167, 251);
 	padding-bottom: 18px;
 }
