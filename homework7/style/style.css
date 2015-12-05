@@ -11,33 +11,39 @@ body {
 a {
 	text-decoration: none;
 }
-h2 {
+h2,
+.news h1,
+.newsletter h1 {
 	font-size: 30px;
 	font-weight: 700;
 	padding: 29px 0 10px;
 }
 
 /*============================header============================*/
-header.main {
-	height: 147px;
-	
+.main  {
+	text-align: left;
 }
+
 header.main h1 {
 	color: #31353e;
 	font-family: RobotoSlab;
 	font-size: 36px;
 	font-weight: 700;
+	
 }
 .logo {
 	color: #dd4b2b;
 	font-family: RobotoSlab;
 	font-size: 16px;
 	font-weight: 400;
-	float: left;
-	padding: 49px 381px 0 42px;
+	overflow: hidden;
+	display: inline-block;
+	padding: 49px 0 44px 42px;
+	text-align: center;
 }
 nav {
 	padding-top: 51px;
+	float: right;
 }
 nav li{
 	display: inline-block;
@@ -62,22 +68,25 @@ nav li:nth-child(3) a {
 /*============================content============================*/
 
 section.content {
-	height: 1321px;
-	background: url('../img/backsection1.png') center  no-repeat;
+	background: url('../img/backsection1.jpg') center  no-repeat;
+	background-size: cover;
 	color: white;
+}
+section.content {
+	padding-bottom: 138px;
 }
 section.content h1 {
 	font-size: 72px;
 	font-weight: 300;
 	padding-top: 489px;
 }
-center {
+.head {
 	padding-top: 7px;
 	font-size: 30px;
 	font-weight: 700;
 }
 main {
-	padding-top: 122px;
+	padding: 122px 0 79px 0;
 	overflow: hidden;
 }
 main article {
@@ -94,9 +103,6 @@ main article:nth-child(2) {
 	padding-left: 80px;
 	padding-right: 75px;
 }
-main {
-	padding-bottom: 59px;
-}
 .content .button {
 	display: inline-block;
 	background-color: white;
@@ -111,7 +117,7 @@ main {
 .news {
 	color: #31353e;
 }
-.news h2 {
+.news h1 {
 	padding: 82px 0 84px;
 }
 .news article {
@@ -125,7 +131,7 @@ main {
 	padding-left: 29px;
 	padding-right: 27px;
 }
-h3 {
+.news h2 {
 	font-size: 24px;
 	font-weight: 700;
 	padding-top: 39px;
@@ -149,10 +155,10 @@ h3 {
 /*============================Newsletter============================*/
 .newsletter {
 	height: 385px;
-	background: url('../img/backnewsletter_cr.png') center  no-repeat;
+	background: url('../img/backnewsletter.jpg') center  no-repeat;
 	color: white;
 }
-.newsletter h2 {
+.newsletter h1 {
 	padding: 91px 0 10px;
 }
 .newsletter p {
@@ -264,7 +270,7 @@ h3 {
 
 footer {
 	height: 375px;
-	background: url('../img/backfooter_cr.png') center  no-repeat;
+	background: url('../img/backfooter.jpg') center  no-repeat;
 	color: white;
 	font-size: 18px;
 	line-height: 24px;
