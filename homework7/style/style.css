@@ -1,40 +1,47 @@
+html {
+	font-size: 62.5%;
+}
 body {
 	background-color: #edeff1;
 	text-align: center;
+	font-family: RobotoSlab;
 }
 .wrapper {
 	width: 1256px;
 	margin: 0 auto;
 	overflow: hidden;
 }
-
 a {
 	text-decoration: none;
 }
 h2,
 .news h1,
 .newsletter h1 {
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
 	padding: 29px 0 10px;
 }
-
+.button {
+	display: inline-block;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	padding: 19px 60px 21px 63px;
+	font-size: 18px;
+	font-weight: 400;
+}
 /*============================header============================*/
 .main  {
 	text-align: left;
 }
-
 header.main h1 {
 	color: #31353e;
-	font-family: RobotoSlab;
-	font-size: 36px;
+	font-size: 3.6rem;
 	font-weight: 700;
 	
 }
 .logo {
 	color: #dd4b2b;
-	font-family: RobotoSlab;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
 	overflow: hidden;
 	display: inline-block;
@@ -47,26 +54,23 @@ nav {
 }
 nav li{
 	display: inline-block;
-	padding: 18px 22px;
+	
 }
 nav a {
 	color:#43464f;
-	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
+	padding: 18px 22px;
+	display: inline-block;
+	
 }
-nav li:nth-child(3) {
-	background-color: #dd4b2b;
+nav li .active,
+nav a:hover {
 	background-color: #dd4b2b;
 	border-radius: 25px;
-	padding: 
-}
-nav li:nth-child(3) a {
 	color: #edeff1;
-}
-
+	}
 /*============================content============================*/
-
 section.content {
 	background: url('../img/backsection1.jpg') center  no-repeat;
 	background-size: cover;
@@ -76,44 +80,37 @@ section.content {
 	padding-bottom: 138px;
 }
 section.content h1 {
-	font-size: 72px;
+	font-size: 7.2rem;
 	font-weight: 300;
 	padding-top: 489px;
 }
 .head {
 	padding-top: 7px;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
 }
 main {
-	padding: 122px 0 79px 0;
+	padding: 122px 36px 79px;
 	overflow: hidden;
 }
 main article {
-	width: 323px;
+	width: 33.3333%;
 	float: left;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 30px;
-}
-main article:first-child {
-	padding-left: 76px;
-}
-main article:nth-child(2) {
-	padding-left: 80px;
-	padding-right: 75px;
+	box-sizing: border-box;
+	padding: 0 36px;
 }
 .content .button {
-	display: inline-block;
 	background-color: white;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 27px;
-	padding: 19px 60px 21px 63px;
 	color: #612316;
 }
-
+.content .button:hover {
+	background-color: #dd4b2b;
+	color: white;
+}
 /*============================news============================*/
-
 .news {
 	color: #31353e;
 }
@@ -121,18 +118,17 @@ main article:nth-child(2) {
 	padding: 82px 0 84px;
 }
 .news article {
-	width: 371px;
+	width: 33.3333%;
 	float: left;
+	padding: 0 15px;
+	box-sizing: border-box;
 }
-.news article:nth-child(2) {
-	padding-left: 41px;
-}
-.news article:nth-child(3) {
-	padding-left: 29px;
-	padding-right: 27px;
+.news .news-block {
+	padding: 0 15px 125px;
+	overflow:hidden;
 }
 .news h2 {
-	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: 700;
 	padding-top: 39px;
 	line-height: 30px;
@@ -142,159 +138,137 @@ main article:nth-child(2) {
 	line-height: 30px;
 }
 .news .button {
-	display: inline-block;
 	background-color: white;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 27px;
 	color: #4e5159;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	padding: 19px 60px 21px 63px;
-	margin: 60px 0 125px;
+	margin-top: 60px;
+}
+.news .button:hover {
+	background-color: #dd4b2b;
+	color: white;
 }
 /*============================Newsletter============================*/
 .newsletter {
-	height: 385px;
 	background: url('../img/backnewsletter.jpg') center  no-repeat;
+	background-size: cover;
 	color: white;
+	padding: 91px 0 113px;
 }
 .newsletter h1 {
-	padding: 91px 0 10px;
+	padding-top: 10px;
 }
 .newsletter p {
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 24px;
-	width: 533px;
+	width: 43%;
 	margin: 0 auto;
 }
 .newsletter form {
 	padding-top: 43px;
 	position: relative;
 	display: inline-block;
+	width: 41%;
 }
 .newsletter form a {
 	background-color: #fff;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	border-radius: 27px;
 	color: #612316;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
 	padding: 19px 73px 17px 78px;
 	position: absolute;
 	right: 0px;
 	bottom: 1px;
 }
+form a:hover {
+	background-color: #dd4b2b;
+	color: white;
+}
 .newsletter input {
-	width: 509px;
+	width: 92%;
 	background-color: rgba(255, 255, 255, 0.2);
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	border-radius: 26px;
 	padding: 19px 0px 21px 36px;
 }
 /*============================product============================*/
-
 .product {
-	height: 1018px;
+	padding: 65px 0 87px;
+	overflow: hidden;
 	background-color: white;
 }
-.product article {
+.product article{
 	overflow: hidden;
+}
+.product article:nth-child(even){
+	padding-top: 52px;
+}
+.product .text-product {
+	float: left;
+	width: 49.6%;
 	text-align: left;
 	color: #191b29;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 300;
 	line-height: 30px;
+	padding: 0 45px 0 0;
+}
+.product img {
+	width: 46.8%;
+	overflow: hidden;
+}
+.product article img:nth-child(even) {
+	overflow: hidden;
+}
+.product article:nth-child(even) .text-product {
+	float: right;
+	padding: 0 0 0 45px;
 }
 .product article p {
 	padding-bottom: 45px;
 }
-.product1 {
-	padding-top: 65px;
-}
-.product2 {
-	padding-top: 55px;
-}
-.product1 img {
-	float: right;
-	border: 1px solid #dbdbdb;
-}
-.product2 img {
-	border: 1px solid #dbdbdb;
-	float: left;
-}
-.text-product {
-	padding: 53px 62px 0 44px;
-	overflow: hidden;
-}
 .product .button {
-	display: inline-block;
 	background-color: #dd4b2b;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 27px;
 	color: white;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 30px;
 	padding: 19px 71px 17px 78px;	
 }
-.product2 .button {
+.product .button:hover {
 	background-color: #4b4e73;
+	color: white;
 }
 /*============================menu============================*/
 .menu {
-	height: 405px;
 	background-color: #d75d0e;
+	padding: 98px 0 84px;
 }
 .menu a {
 	color: white;
 }
 .menu ul {
 	float: left;
-	padding-top: 98px;
+	width: 33.3333%;
 }
 .menu li {
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 36px;
 }
-.menu ul:first-child {
-	padding-left: 165px;
-}
-.menu ul:nth-child(2) {
-	padding-left: 246px;
-	padding-right: 281px;
-}
-
 /*============================footer============================*/
-
 footer {
-	height: 375px;
 	background: url('../img/backfooter.jpg') center  no-repeat;
+	background-size: cover;
 	color: white;
-	font-size: 18px;
+	font-size: 1.8rem;
 	line-height: 24px;
 }
 footer .wrapper {
-	padding-top: 91px;
+	padding: 91px 0 243px;
 	width: 666px;
 }
 footer a {
 	color: white;
 	font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
