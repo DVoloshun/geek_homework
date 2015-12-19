@@ -1,0 +1,475 @@
+
+body {
+	font-family: Montserrat;
+}
+
+a {
+	text-decoration: none;
+}
+.button {
+	background-color: #8d81ac;
+	border-radius: 35px;
+	color: white;
+}
+/*------------------------header ------------------------*/
+#header {
+	color: #635c73;
+	font-size: 16px;
+	font-weight: 700;
+}
+header .logo {
+	padding: 31px 0 0;
+}
+.menu {
+	padding: 47px 0 41px;
+	color: #635c73;
+	font-size: 16px;
+	font-weight: 700;
+}
+nav,
+nav li {
+	display: inline-block;
+}
+nav li {
+	padding: 0 25px 0 0;
+	color: #635c73;
+	font-size: 16px;
+	font-weight: 700;
+}
+.menu .small {
+	padding: 13px 36px 9px;
+}
+/*------------------------fork-app ------------------------*/
+#fork-app {
+	background: url('../img/backfork.jpg') center  no-repeat;
+	background-size: cover;
+	padding-bottom: 538px;
+}
+#fork-app .container{
+    text-align: center;
+}
+#fork-app h1 {
+	color: white;
+	font-size: 82px;
+	font-weight: 700;
+	line-height: 20px;
+	padding: 108px 0 50px; 
+}
+#fork-app p {
+	color: #8d81ac;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 400;
+	padding: 0 0 18px;
+}
+#fork-app span {
+	color: #848e97;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+/*------------------------editor ------------------------*/
+#editor .container .big{
+    padding: 23px 66px;
+	font-size: 21px;
+	font-weight: 700;
+}
+#editor .container{
+    text-align: center;
+}
+#editor .container span{
+    display: block;
+	color: #848e97;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 48px 0 66px;
+}
+#editor .container h1 {
+	color: #635c73;
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding: 0 0 40px;
+}
+#editor .container p {
+	opacity: 0.8;
+	color: #323232;
+	font-family: SourceSansPro;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 32px;
+	width: 60%;
+	margin: 0 auto;
+}
+#editor .container dl{
+	display: inline-block;
+	padding: 36px 0 70px;
+}
+#editor .container dt,
+#editor .container dd {
+	float: left;
+	color: #333;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 6px 10px;
+	border: 1px solid #d5d5d5;
+}
+#editor .container dt {
+	background-color: #f1f1f1; 
+}
+#editor .container i {
+	padding-right: 5px;
+}
+
+
+
+/*------------------------web ------------------------*/
+#web{
+	background-color: #f4f4f4;
+}
+.information {
+	padding: 102px 0 70px;
+	}
+.info-post {
+	padding: 10px;
+	margin-bottom: 24px;
+}
+.info-post .img {
+	width: 111px;
+	float: left;
+}
+.information h2{
+	color: #323232;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+}
+.information p{
+	color: #848e97;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+.example h1{
+	color: #8d81ac;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 20px;
+	padding: 84px 0 59px;
+}
+.window{
+	width: 705px;
+	height: 580px;
+	opacity: 0.95;
+	background-color: #2b2d2e;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0%, transparent 100%);
+	border-radius: 6px;
+	box-shadow: 0 0 25px rgba(0, 5, 5, 0.3);		
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -130px;
+	position: relative;
+}
+.ellipses{
+	margin: 24px 0 0 30px;
+}
+.hello{
+	float: right;
+	margin: 24px 130px 0 0; 
+	color: #c7c7c7;
+	font-size: 14px;
+	font-weight: 400;
+}
+.html{
+	margin: 87px 0 0 30px;
+	float: left;
+}
+.html li{
+	display: block;
+	padding-bottom: 30px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	color: white;
+}
+.example ul span{
+	color: #c7c7c7;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+}
+.example .code {
+	position: absolute;
+	bottom: -20px;
+	right: 0px;
+}
+/*------------------------comment ------------------------*/
+#comment .container {
+	text-align: center;
+	padding: 87px 0 79px;
+}
+#comment .container h1{
+	display: inline-block;
+	color: #635c73;
+	font-size: 24px;
+	font-weight: 700;
+}
+#comment header span{
+	display: inline-block;
+	color: #8d81ac;
+	font-size: 16px;
+	font-weight: 400;
+}
+#comment .container p {
+	padding: 48px 0 25px;
+	font-family: SourceSansPro;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #333;
+}
+#comment p a{
+	color: #8d81ac;
+}
+#comment p span{
+	color: #848e97;
+	font-size: 16px;
+	font-weight: 400;
+}
+#comment li  {
+	display: inline-block;
+	width: 280px;
+}
+#comment ul span{
+	display: inline-block;
+	color: #848e97;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 35px 0 45px;
+}
+#comment ul a {
+	background-color: #f3f3f3;
+	border-radius: 4px;
+	color: black;
+	font-size: 21px;
+	font-weight: 400;
+	padding: 16px 82px 16px 24px;
+}
+#comment ul i {
+	padding-right: 60px;
+}
+#comment li:nth-child(2) a{
+	background-color: #26a6d1;
+	color: white;
+}
+#comment li:nth-child(3) a{
+	background-color: #3b5998;
+	color: white;
+}
+/*------------------------about-fork ------------------------*/
+#about-fork {
+	background: url('../img/back-about-fork.jpg') center  no-repeat;
+	background-size: cover;
+	padding: 98px 0;
+	text-align: center;
+}
+#about-fork h1 {
+	color: white;
+	font-size: 48px;
+	font-weight: 700;
+	padding: 0 0 90px;
+}
+#about-fork p {
+	padding: 37px 0 100px;
+	color: white;
+	font-family: SourceSansPro;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+#about-fork .image {
+	height: 64px;
+}
+#about-fork .company{
+	padding: 0 30px;
+}
+/*------------------------pricing ------------------------*/
+#pricing {
+	background: url('../img/back-pricing.jpg') center  no-repeat;
+	background-size: cover;
+}
+#pricing .container {
+	padding: 30px 0 77px;
+	text-align: center;
+	color: white;
+}
+#pricing h1 {
+	font-size: 48px;
+	font-weight: 700;
+	padding: 30px 0 106px;
+}
+.tarif {
+	background-color: rgba(255, 255, 255, 0.1);
+	padding-bottom: 52px;
+}
+.package {
+	margin-top: 14px;
+	padding-bottom: 50px;
+}
+.tarif h2 {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding: 45px 0 33px;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+.tarif .price {
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: block;
+	padding: 36px 0 0;
+}
+.tarif span {
+	opacity: 0.3;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 90px;
+	text-transform: uppercase;
+	padding: 26px 0 0;
+}
+.tarif p {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	height: 45px;
+	padding: 31px 0 83px;
+}
+.tarif .purchase {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding: 16px 38px 
+}
+.pricing-text {
+	opacity: 0.8;
+	color: #a291a5;
+	font-family: SourceSansPro;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+/*------------------------newsletter ------------------------*/
+#newsletter {
+	background-color: #f4f4f4;
+}
+#newsletter h1 {
+	color: #635c73;
+	font-size: 30px;
+	font-weight: 700;
+	display: inline-block;
+}
+#newsletter form {
+	display: inline-block;
+	float: right;
+}
+#newsletter input {
+	background-color: white;
+	border-radius: 21px;
+	padding: 16px 28px 14px;
+	width: 60%;
+}
+#newsletter .container {
+	padding: 46px 0;
+}
+#newsletter .subscribe {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 17px;
+	text-transform: uppercase;
+	padding: 16px 28px 16px 36px;
+	margin: 0 10px;
+}
+
+/*------------------------news ------------------------*/
+#news .container {
+	padding-bottom: 60px;
+}
+
+#news article h1 {
+	color: #d3d1da;
+	font-size: 28px;
+	font-weight: 700;
+	padding: 80px 0 33px;
+}
+#news p {
+	color: #848e97;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 21px;
+}
+#news h2,
+#news dt  {
+	color: #8d81ac;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+#news p,
+#news dd { 
+	padding: 15px 0 30px;
+}
+#news article:first-child h2{
+	color: #323232;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+#news dd {
+	color: #848e97;
+	font-size: 13px;
+	font-weight: 400;
+}
+#news .go-to {
+	color: #8d81ac;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+/*------------------------footer ------------------------*/
+footer  {
+	color: #848e97;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	padding: 60px 100px;
+}
+footer h2 {
+	color: #323232;
+	font-size: 16px;
+	font-weight: 400;
+}
+.phone {
+	color: #3f3f3f;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 28px;
+	display: block;
+}
+footer img,
+footer h2,
+.phone {
+	padding: 38px 0 22px;
+}
