@@ -1,0 +1,252 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+	section.content h1 {
+		font-size: 5rem;
+	}
+
+	.news .news-block img {
+		width: 100%
+	}
+	.newsletter p {
+		width: 95%;
+	}
+	.product img {
+		width: 95%;
+	}
+	.menu ul {
+		float: none;
+		width: 100%;
+	}
+	.product img {
+		width: 95%;
+	}
+	.newsletter form {
+		width: 90%;
+	}
+}
+@media screen and (min-width: 480px) and (max-width:767px) {
+	.menu ul {
+		float: none;
+		width: 100%;
+	}
+	.product img {
+		width: 60%;
+	}
+	.newsletter form {
+		width: 60%;
+	}
+}
+@media screen and (max-width:767px) {
+	.wrapper {
+		width: 100%;
+	}
+	header nav {
+		display: none;
+	}
+	header .logo {
+		padding: 44px 0;
+		display: block;
+	}
+	section.content h1 {
+		padding: 50px 0;
+	}
+	.head {
+		padding-top: 0px;
+		font-size: 2rem;
+		font-weight: 700;
+	}
+	main > article {
+		float: none;
+		width: 100%;
+		padding: 0 0 50px;
+	}
+	main {
+		padding: 122px 15px 0px;
+	}
+	section.content {
+    	padding-bottom: 60px;
+	}
+	.news h1 {
+   		padding: 50px 0 50px;
+	}
+	.news .news-block {
+		padding: 0 15px 0;
+		overflow: hidden;
+	}
+	.news article {
+		width: 100%;
+		padding:0 0 50px;
+		box-sizing: border-box;
+	}
+	.news .button {
+		margin-top: 30px;
+	}
+	.news p {
+		font-size: 1.5rem;
+	}
+	.newsletter {
+		padding: 50px 0 50px;
+	}
+	.newsletter p {
+		width: 80%;
+	}
+	.newsletter form a {
+		padding: 17px 20px 17px 20px;
+	}
+	.newsletter input {
+		padding: 19px 0px 19px 0px;
+	}
+	.product {
+		padding: 50px 0 50px;
+	}
+	.product .text-product {
+		float: none;
+		width: 100%;
+		padding: 0 20px 0 20px;
+		text-align: center;
+		box-sizing: border-box;
+	}	
+	.product article p {
+		padding-bottom: 20px;
+		text-align: left;
+	}
+	.product article:nth-child(even) .text-product {
+		float: none;
+		width: 100%;
+		padding: 0 20px 0 20px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	.menu {
+		padding: 50px 0 50px;
+	}
+	footer .wrapper {
+		padding: 50px 0px 50px;
+		width: 90%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:1023px) {
+	html {
+		font-size: 100%;
+	}
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: left;
+		padding: 40px;
+	}
+	nav {
+		padding-top: 40px;
+		
+	}
+	nav a {
+		padding: 18px 15px;
+	}
+	section.content h1 {
+		font-size: 6rem;
+		font-weight: 300;
+		padding-top: 70px;
+	}
+	main {
+		padding: 70px 36px 40px;
+		overflow: hidden;
+	}
+	.content article p {
+		font-size: 1.9rem;
+	}
+	.news h1 {
+		padding: 50px 0 50px;
+	}
+	.news .news-block {
+		padding: 0 15px 60px;
+	}
+	.news p {
+		padding: 0 42px 0 41px;
+		font-size: 1.7rem
+	}
+	.news article {
+		width: 33.3333%;
+		float: left;
+		padding: 0 5px;
+		box-sizing: border-box;
+	}
+	.news article img {
+		width: 100%
+	}
+	.newsletter {
+		padding: 50px 0 50px;
+	}
+	.newsletter input {
+		width: 87%;
+	}
+	.newsletter form a {
+		padding: 19px 20px 17px 20px;
+	}
+	.product {
+		padding: 50px 20px 50px;
+	}
+	.product .text-product {
+		width: 100%;
+		font-size: 1.8rem;
+		font-weight: 300;
+		line-height: 30px;
+		padding: 0;
+		float: left;
+	}
+	.product img {
+		width: 50%;
+		float: left;
+	}
+	.product article:nth-child(even) img {
+		float: right;
+	}
+	.product article:nth-child(even) a {
+		float: right;
+	}	
+		.product article p {
+		padding-bottom: 20px;
+	}
+	.menu {
+   		padding: 50px 0 50px;
+	}
+	.menu li {
+		font-size: 2rem;
+		line-height: 50px
+	}
+	footer .wrapper {
+		padding: 50px 0 60px;
+		width: 666px;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width:1255px) {
+	.wrapper {
+		width: 100%;
+	}
+	.news article img {
+		width: 100%
+	}
+	.newsletter form a {
+		padding: 19px 40px 17px 40px;
+	}
+	.newsletter input {
+		width: 90%;
+	}
+	.product img {
+		width: 45%;
+	}
+	.product .text-product {
+		float: left;
+		width: 45%;
+		padding: 0 35px 0 0;
+	}
+	.product {
+		padding: 65px 15px 87px;
+		overflow: hidden;
+		background-color: white;
+	}
+}
+@media screen and (min-width: 1256px){
+	.wrapper {
+		width: 100%;
+	}
+}

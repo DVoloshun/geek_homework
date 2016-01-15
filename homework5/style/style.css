@@ -1,9 +1,13 @@
+
+html {
+	font-size: 62.5%;
+}
 .header, .main, .footer{
 	margin: 0 auto;
 	width: 960px;
 	overflow: hidden;
 	font-style: Tahoma;
-	font-size: 11px;
+	font-size: 1.1rem;
 	color: #555555;
 }
 a {
@@ -33,7 +37,7 @@ h3 {
 .logo{
 	padding: 27px 0px 10px;
 	font-style: Myriad Pro;
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 .logo a {
 	color: #282828;
@@ -82,7 +86,7 @@ input {
 	color: #555555;	
 } 
 h1 {
-	font-size: 24px;
+	font-size: 2.4rem;
 	font-weight: bold;
 	padding: 10px 0px;
 }
@@ -91,13 +95,13 @@ h1 {
 }
 .main-article p {
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 1.2rem;
 	color: #555555;
 	line-height: 145%;
 }
 h2 {
 	padding: 8px 0 11px;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: bold;
 }
 .second-content li {

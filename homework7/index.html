@@ -2,9 +2,11 @@
 <html>
 	<head>
 		<title>Homework7</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<link href="../reset.css" rel="stylesheet" type="text/css">
 		<link href="style/style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="style/media.css">
 	</head>
 	<body>
 		<header class="main">
@@ -17,7 +19,7 @@
 					<ul class="nav">
 						<li><a href="#">Fusce at</a></li>
 						<li><a href="#">Facilisis</a></li>
-						<li><a href="#">Ante donec</a></li>
+						<li><a class="active" href="#">Ante donec</a></li>
 						<li><a href="#">Blandit rhoncus</a></li>
 						<li><a href="#">Placerat</a></li>
 					</ul>
@@ -27,7 +29,7 @@
 		<section class="content">
 			<div class="wrapper">
 				<h1>Integer at tortor ut magna</h1>
-				<center>finibus lobortis sed quis tellus.</center>
+				<p class="head">finibus lobortis sed quis tellus.</p>
 					<main>
 						<article>
 							<header>
@@ -62,50 +64,54 @@
 		</section>	
 		<section class="news">
 			<div class="wrapper">
-				<h2>Our news</h2>
-					<article>
-						<header>
-							<img src="img/sec2photo1.png" alt="Donec ligula">
-							<h3>Lorem ipsum</h3>
-						</header>
-						<p>
-							Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.
-						</p>
-						<a href="#" class="button">Read more</a>
-					</article>
-					<article>
-						<header>
-							<img src="img/sec2photo2.png" alt="Donec ligula">
-							<h3>Lorem ipsum</h3>
-						</header>
-						<p>
-							Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.
-						</p>
-						<a href="#" class="button">Read more</a>
-					</article>
-					<article>
-						<header>
-							<img src="img/sec2photo3.png" alt="Donec ligula">
-							<h3>Lorem ipsum</h3>
-						</header>
-						<p>
-							Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.
-						</p>
-						<a href="#" class="button">Read more</a>
-					</article>
+				<h1>Our news</h1>
+					<div class="news-block">
+						<article>
+							<header>
+								<img src="img/sec2photo1.jpg" alt="Donec ligula">
+								<h2>Lorem ipsum</h2>
+							</header>
+							<p>
+								Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.
+							</p>
+							<a href="#" class="button">Read more</a>
+						</article>
+						<article>
+							<header>
+								<img src="img/sec2photo2.jpg" alt="Donec ligula">
+								<h2>Lorem ipsum</h2>
+							</header>
+							<p>
+								Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.
+							</p>
+							<a href="#" class="button">Read more</a>
+						</article>
+						<article>
+							<header>
+								<img src="img/sec2photo3.jpg" alt="Donec ligula">
+								<h2>Lorem ipsum</h2>
+							</header>
+							<p>
+								Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.
+							</p>
+							<a href="#" class="button">Read more</a>
+						</article>
+					</div>
 			</div>
 		</section>
 		<section class="newsletter">
-			<h2>Newsletter</h2>
-			<p>Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus</p>
-			<form name="subscribe" action="#" method="GET">
-				<input name="email" type="email" placeholder="email adress">
-				<a href="#" class="button">Sign up</a>
-			</form>
+			<div class="wrapper">
+				<h1>Newsletter</h1>
+				<p>Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus</p>
+				<form name="subscribe" action="#" method="GET">
+					<input name="email" type="email" placeholder="email adress">
+					<a href="#" class="button">Sign up</a>
+				</form>
+			</div>
 		</section>
 		<section class="product">
 			<div class="wrapper">
-				<article class="product1">
+				<article>
 					<img src="img/product1.jpg" alt="some photo">
 					<div class="text-product">
 						<h2>Ipsum dolor sit amet</h2>
@@ -114,14 +120,14 @@
 						<a href="#" class="button">Sign up</a>
 					</div>
 				</article>
-				<article class="product2">
+				<article>
 					<img src="img/product2.jpg" alt="some photo">
 					<div class="text-product">
 						<h2>Ipsum dolor sit amet</h2>
 						<p>Nam accumsan nunc sit amet elementum sollicitudin. Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.</p>
 						<p>Quisque ut erat ornare, feugiat turpis a, fringilla felis. Nulla molestie lorem et orci sagittis, et accumsan ex porta.</p>
 						<a href="#" class="button">Sign up</a>
-					</div>	
+					</div>
 				</article>
 			</div>
 		</section>

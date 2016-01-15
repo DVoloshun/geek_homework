@@ -1,0 +1,161 @@
+@media screen and (min-width: 320px) and (max-width: 479px){
+	.main h1 {
+		font-size: 2.3rem;
+		line-height: 30px;
+	}
+	.about img {
+		width: 100%;
+	}
+	.contact-us input {
+   		width: 100%;
+	}
+	.address {
+		padding: 0 0 20px;
+		width: 50%
+	}
+	.contact-us .button {
+		float: right;
+		padding: 15px 30px;
+	}
+} 
+	
+@media screen and (min-width: 480px) and (max-width:767px) {
+	
+}
+	
+@media screen and (max-width:767px) {
+	.wrapper {
+		width: 100%;
+	}
+	header nav {
+		display: none;
+	}
+	.main header {
+		padding-bottom: 100px;
+	}
+	.logo {
+		padding-left: 30px;
+	}
+	.main h1 {
+		width: 70%;
+		margin: 0 auto 40px;
+	}
+	.main {
+    	padding-bottom: 50px;
+	}
+	.section-head h1 {
+		padding: 50px 0 15px;
+	}
+	.section-head p {
+		width: 70%;
+	}
+	.contact-us p {
+		padding-top: 0px;
+	}
+	.about article {
+		padding: 15px;
+	}
+	.about img {
+		padding: 0 0 20px;
+	}
+	.about .button {
+		padding: 20px 36px;
+		margin-top: 30px;
+		position: inherit;
+		
+	}
+	.services article {
+		float: none;
+		width: 90%;
+		box-sizing: border-box;
+		margin-right: 0;
+		margin-top: 20px;
+		padding: 0 23px 19px;
+	}
+	.services h2 {
+		padding-bottom: 33px;
+		padding-top: 20px
+	}
+	.contact-us{
+		padding: 0 10px 25px;
+	}
+	.contact-us article {
+		float: none;
+		padding-right: 0px;
+		width: 95%;
+	}
+	.portfolio .figure {
+		float: none;
+		margin-bottom: 40px;
+		width: 95%;
+	}
+	.portfolio .figure:nth-child(3),
+	.portfolio .figure:nth-child(6) {
+		margin: 0 0 40px;
+	}
+	.contact-us form {
+		width: 95%;
+	}
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+	.wrapper {
+		width: 100%;
+	}
+	.about h2 {
+		padding: 15px
+	}
+	.about .button {
+		position: inherit;
+	}
+	.portfolio .figure {
+		float: left;
+		margin-bottom: 40px;
+		margin: 0 5px 40px;
+	}
+	.portfolio .figure:nth-child(3),
+	.portfolio .figure:nth-child(6) {
+		margin: 0 5px 40px;
+	}
+	.services article {
+		margin-right: 5px;
+		padding: 15px 23px 19px;
+	}
+	.services article p {
+		font-size: 2rem;
+		line-height: 30px;
+	}
+	.services h2 {
+		font-size: 1.6rem;
+	}		
+	.contact-us input {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width:1255px) {
+	.wrapper {
+		width: 100%;
+	}.portfolio .figure {
+		float: left;
+		margin-bottom: 40px;
+		margin: 0 5px 40px;
+	}
+	.portfolio .figure:nth-child(3),
+	.portfolio .figure:nth-child(6) {
+		margin: 0 5px 40px;
+	}
+	.services article {
+		margin-right: 5px;
+		padding: 15px 23px 19px;
+	}
+	.contact-us input {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1256px) {
+	
+}
