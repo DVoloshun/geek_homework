@@ -1,0 +1,13 @@
+body {
+	background-color: #6A5ACD;
+}	
+#timer {
+	padding-top: 100px;
+	text-align: center;
+	font-size: 100px;
+	font-weight: 700;
+	color: #B22222;
+}
+li {
+	display: inline-block; 
+}
